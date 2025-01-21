@@ -1,0 +1,9 @@
+cryptography
+matplotlib
+networkx
+sendgrid
+requests
+pymongo
+plotly
+pandas
+flask
