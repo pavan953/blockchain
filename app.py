@@ -77,7 +77,7 @@ def send_email_to_user(user_email, product_name, amount):
 @app.route('/')
 @app.route('/supplier', methods=['GET'])
 def supplier():
-    return render_template('supplier_main.html')
+    return render_template('index.html')
 
 @app.route('/supplier/add', methods=['POST'])
 def add_drug():
